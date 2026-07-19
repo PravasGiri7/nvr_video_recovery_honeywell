@@ -3,7 +3,7 @@ Forensic pipeline for NVR video recovery — carves video chunks, attributes sou
 
 ### The Pipeline
 * **Carves video fragments:** Extracts raw video chunks directly from a disk image.
-* **Separates fragments:** Distinguishes between older, deleted video data and newly recorded fragments.
+* **Separates fragments:** Distinguishes between eleted video data and newly recorded fragments.
 * **Identifies source cameras:** Groups recovered fragments using two methods:
   * **OCR-based:** Extracts visible text overlays from the video frames.
   * **PRNU-based:** Analyzes Photo Response Non-Uniformity (sensor pattern noise).
