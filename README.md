@@ -5,7 +5,7 @@ Forensic pipeline for NVR video recovery (Honeywell HN35080200 NVR) — carves v
 * **Carves video fragments:** Extracts raw video chunks directly from a disk image.
 * **Separates fragments:** Distinguishes between eleted video data and newly recorded fragments.
 * **Identifies source cameras:** Groups recovered fragments using two methods:
-  * **OCR-based:** Extracts visible text overlays from the video frames.
+  * **OCR-based:** Extracts visible text overlays from the video frames using PaddleOCR-VL-1.5.
   * **PRNU-based:** Analyzes Photo Response Non-Uniformity (sensor pattern noise).
 * **Orders footage:** Sequences the video fragments chronologically using timestamps.
 * **Fills sequence gaps:** Restores missing sections using previously unassigned video fragments.
