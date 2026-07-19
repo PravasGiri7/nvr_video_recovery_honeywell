@@ -12,7 +12,6 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-
 # ── Baseline folder (the camera channel with gaps) ──────────
 BASELINE_DIR = Path(r"/PATH/TO/BASELINE/DIR")
 
