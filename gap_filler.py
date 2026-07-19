@@ -22,7 +22,7 @@ FILL_DIR = Path(r"/PATH/TO/FILL/DIR")
 # ── Output folder (merged result; created automatically) ─────
 OUTPUT_DIR = Path(r"/PATH/TO/OUTPUT/DIR")
 
-# ── Gap threshold: gaps larger than this are flagged / filled ─
+# ── Gap threshold: gaps larger than this are flagged
 GAP_THRESHOLD_SECONDS = 5.0
 
 MATCH_TOLERANCE_SECONDS = 3.0
