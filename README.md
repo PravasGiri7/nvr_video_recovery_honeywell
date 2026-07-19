@@ -1,5 +1,5 @@
 # NVR_Video_Recovery_Honeywell
-Forensic pipeline for NVR video recovery — carves video chunks, attributes source via PRNU or OCR overlay extraction, fills sequence gaps, and reassembles footage.
+Forensic pipeline for NVR video recovery (Honeywell HN35080200 NVR) — carves video chunks, attributes source via PRNU or OCR overlay extraction, fills sequence gaps, and reassembles footage.
 
 ### The Pipeline
 * **Carves video fragments:** Extracts raw video chunks directly from a disk image.
